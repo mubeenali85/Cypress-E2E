@@ -16,7 +16,7 @@ class registerPage
     openURL(){
         cy.visit(Cypress.env('URL'))
         
-        cy.visit('https://naveenautomationlabs.com/opencart/index.php?route=account/register')
+        //cy.visit('https://naveenautomationlabs.com/opencart/index.php?route=account/register')
     }
 
     enterFirstName(FName)

@@ -2,9 +2,10 @@
   "name": "cypress-e2e",
   "version": "1.0.0",
   "main": "index.js",
-  "scripts": {
+  "scripts": {    
+    "test:addToCart":"npx cypress run --spec cypress/e2e/tests/addToCart.cy.js",
     "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  },  
   "repository": {
     "type": "git",
     "url": "(https://github.com/mubeenali85/Cypress-E2E.git)"

@@ -6,13 +6,10 @@ import registerData from '../../fixtures/registerData.json';
 
 const registerObj = new registerPage()
 
-
-
 describe('Test automation',function(){
 
     it('register flow',function(){
         registerObj.openURL()
-
         registerObj.enterFirstName(registerData.firstName)
         registerObj.enterLastName(registerData.lastName)
         registerObj.enterEmail(registerData.email)

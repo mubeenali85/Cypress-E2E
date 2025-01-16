@@ -1,4 +1,4 @@
-name: End-to-end tests
+name: GitHub actions runs on Chrome browser
 on: push
 jobs:
   cypress-run:
